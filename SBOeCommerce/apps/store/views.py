@@ -19,7 +19,7 @@ def category_detail(request, slug):
 
     context =  {
         'category': category,
-        'product': products
+        'products': products
     }
 
-    return render(request, 'category_detail.html', context)
+    return render(request, 'category_detail.html', context) 
